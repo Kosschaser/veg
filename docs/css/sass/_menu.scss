@@ -1,0 +1,66 @@
+$gray: rgba(60, 60, 60, 255);
+.menu-header{
+	font-size: 24pt;
+}
+.menu-buttons{
+	li{
+		border: 1px solid transparent;
+		transition: 0.5s ease-in-out;
+		display: inline-block;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-left: 10px;
+		&:hover{
+			border-color: $gray;
+		}
+		a{
+		display: block;
+    	padding: .5rem 1rem;
+    	text-decoration: none;
+    	color: inherit;
+		}
+	}
+}
+#menu-list{
+	font-size: 13px;
+	font-size: 1vw;
+}
+.menu-item{
+	margin-bottom: 20px;
+}
+.item-description{
+	overflow: hidden;
+	white-space: nowrap;
+	text-transform: uppercase;
+	&:after{
+		content:'.................................................................................................';
+	}
+}
+.item-description-minor{
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+#menu-list--starters{
+	display: flex;
+	opacity: 1;
+}
+#menu-list--dishes, #menu-list--desserts, #menu-list--drinks{
+	display: none;
+	opacity: 0;
+}
+@media (min-width: 768px){
+	#menu-list{
+		font-size: 1.1vw;
+	}
+}
+@media (min-width: 1200px){
+	#menu-list{
+		font-size: 1vw;
+	}
+}
+@media (min-width: 1600px){
+	#menu-list{
+		font-size: 0.9vw;
+	}
+}

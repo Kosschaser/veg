@@ -1,0 +1,31 @@
+@fontface{
+	font-family: 'Merriweather-Light';
+	src: url('../src/Fonts/Merriweather-Light.ttf');
+}
+.specials-header{
+	font-size: 24pt;
+	letter-spacing: 1.2px;
+}
+.specials{
+	padding: 0;
+}
+.specials-cell{
+	flex-basis: 1/2 * 100%;
+	line-height: 0.8;
+	perspective: 400px;
+	img{
+		width: 100%;
+		min-height: 190px;
+		height: auto;
+	}
+}
+.specials-text{
+	line-height: normal;
+	hr{
+		width: 50%;
+		border-color: black;
+	}
+	div:not(:first-child){
+		font-family: 'Merriweather-Light', serif!important;
+	}
+}

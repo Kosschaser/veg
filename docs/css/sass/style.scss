@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'header';
+@import 'interlay';
+@import "specials";
+@import 'about';
+@import 'menu';
+@import 'footer';
+
+$mct: 0 auto;
+$gray: rgba(60, 60, 60, 255);
+
+main{
+	margin: $mct;
+}

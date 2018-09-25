@@ -1,0 +1,20 @@
+.about-wrap{
+	background-color: #e7e8e8;
+	height: 100vh;
+	max-height: 1000px;
+	min-height: 600px;
+}
+.about-header{
+	font-size: 2em;
+}
+.about-text{
+	font-size: 18pt;
+}
+.about-picture{
+	display: flex;
+}
+@media screen and(max-width: 991.98px){
+		.about-picture{
+			display: none;
+		}
+	}

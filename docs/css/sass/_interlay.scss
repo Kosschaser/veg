@@ -1,0 +1,15 @@
+.interlay-wrap{
+	background-image: url('../src/images/interlay.png');
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+}
+.interlay{
+	max-width: 1600px;
+}
+.interlay-heading{
+	font-weight: 800;
+	font-size: 14pt;
+	text-transform: uppercase;
+}
